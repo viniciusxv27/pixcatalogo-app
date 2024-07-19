@@ -1,0 +1,16 @@
+CRITICAL - 2024-06-30 13:19:09 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php on line 60
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Models\ProdutoModel.php(60): CodeIgniter\Database\BaseBuilder->like('montadora', null)
+ 2 APPPATH\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral(null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-30 13:23:18 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php on line 60
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Models\ProdutoModel.php(60): CodeIgniter\Database\BaseBuilder->like('montadora', null)
+ 2 APPPATH\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral(null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

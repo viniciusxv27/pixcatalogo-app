@@ -1,0 +1,305 @@
+INFO - 2024-04-27 00:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-27 00:16:37 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\AplicacaoModel.php on line 86.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Models\\AplicacaoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AplicacaoModel')
+ 3 APPPATH\Controllers\Rest.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AplicacaoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Rest->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 00:16:37 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\AplicacaoModel.php on line 86.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Models\\AplicacaoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AplicacaoModel')
+ 3 APPPATH\Controllers\Rest.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AplicacaoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Rest->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 00:16:54 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Rest.php on line 101.
+ 1 APPPATH\Controllers\Rest.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Controllers\\Rest.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 00:17:44 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Rest.php on line 101.
+ 1 APPPATH\Controllers\Rest.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Controllers\\Rest.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 00:19:29 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Rest.php on line 104.
+ 1 APPPATH\Controllers\Rest.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Controllers\\Rest.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-27 00:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-27 00:24:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ )' at line 5 in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\AplicacaoModel.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\Rest.php(108): App\Models\AplicacaoModel->aplicacaoProdutos(Array, '1')
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-27 00:24:00 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ )' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = :sistema_id:
+AND   (
+ IS NULL
+ )', [...], false)
+ 2 APPPATH\Models\AplicacaoModel.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Rest.php(108): App\Models\AplicacaoModel->aplicacaoProdutos([], '1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 00:24:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ )' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'1\'
+AND   (
+ IS NULL
+ )')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'1\'
+AND   (
+ IS NULL
+ )')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = :sistema_id:
+AND   (
+ IS NULL
+ )', [...], false)
+ 4 APPPATH\Models\AplicacaoModel.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Rest.php(108): App\Models\AplicacaoModel->aplicacaoProdutos([], '1')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 00:24:00 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ )' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'1\'
+AND   (
+ IS NULL
+ )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'1\'
+AND   (
+ IS NULL
+ )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'1\'
+AND   (
+ IS NULL
+ )')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = :sistema_id:
+AND   (
+ IS NULL
+ )', [...], false)
+ 5 APPPATH\Models\AplicacaoModel.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rest.php(108): App\Models\AplicacaoModel->aplicacaoProdutos([], '1')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-27 00:24:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ )' at line 5 in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\AplicacaoModel.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\Rest.php(108): App\Models\AplicacaoModel->aplicacaoProdutos(Array, '2')
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-27 00:24:09 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ )' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = :sistema_id:
+AND   (
+ IS NULL
+ )', [...], false)
+ 2 APPPATH\Models\AplicacaoModel.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Rest.php(108): App\Models\AplicacaoModel->aplicacaoProdutos([], '2')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 00:24:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ )' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'2\'
+AND   (
+ IS NULL
+ )')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'2\'
+AND   (
+ IS NULL
+ )')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = :sistema_id:
+AND   (
+ IS NULL
+ )', [...], false)
+ 4 APPPATH\Models\AplicacaoModel.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Rest.php(108): App\Models\AplicacaoModel->aplicacaoProdutos([], '2')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 00:24:09 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ )' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'2\'
+AND   (
+ IS NULL
+ )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'2\'
+AND   (
+ IS NULL
+ )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'2\'
+AND   (
+ IS NULL
+ )')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = :sistema_id:
+AND   (
+ IS NULL
+ )', [...], false)
+ 5 APPPATH\Models\AplicacaoModel.php(116): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rest.php(108): App\Models\AplicacaoModel->aplicacaoProdutos([], '2')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-27 00:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-27 00:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-27 11:51:26 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\AplicacaoModel.php on line 98.
+ 1 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([...], '1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 11:58:18 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\AplicacaoModel.php on line 98.
+ 1 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([...], '1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 12:00:15 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\AplicacaoModel.php on line 98.
+ 1 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([...], '1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 12:01:38 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\AplicacaoModel.php on line 98.
+ 1 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([...], '1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 12:01:55 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\AplicacaoModel.php on line 98.
+ 1 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([], '1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 12:02:03 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\AplicacaoModel.php on line 98.
+ 1 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([...], '1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 12:13:10 --> ErrorException: Undefined property: CodeIgniter\Database\MySQLi\Builder::$countAll
+in APPPATH\Models\AplicacaoModel.php on line 101.
+ 1 APPPATH\Models\AplicacaoModel.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$countAll', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Models\\AplicacaoModel.php', 101)
+ 2 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([...], '1')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 12:13:30 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+in APPPATH\Models\AplicacaoModel.php on line 101.
+ 1 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([...], '1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-27 12:13:35 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\AplicacaoModel.php on line 101.
+ 1 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([...], '1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

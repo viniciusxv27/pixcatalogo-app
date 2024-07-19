@@ -1,0 +1,254 @@
+INFO - 2024-04-16 00:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-16 00:07:48 --> ErrorException: Undefined array key ""
+in APPPATH\Views\produto\lista_produtos.php on line 41.
+ 1 APPPATH\Views\produto\lista_produtos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produto/lista_produtos', [], true)
+ 5 APPPATH\Controllers\Produto.php(34): view('produto/lista_produtos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-16 00:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-16 00:08:38 --> ErrorException: Undefined array key ""
+in APPPATH\Views\produto\lista_produtos.php on line 41.
+ 1 APPPATH\Views\produto\lista_produtos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produto/lista_produtos', [], true)
+ 5 APPPATH\Controllers\Produto.php(34): view('produto/lista_produtos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-16 00:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-16 00:08:44 --> ErrorException: Undefined array key 3
+in APPPATH\Views\produto\lista_produtos.php on line 41.
+ 1 APPPATH\Views\produto\lista_produtos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produto/lista_produtos', [], true)
+ 5 APPPATH\Controllers\Produto.php(34): view('produto/lista_produtos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-16 00:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 00:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 00:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-16 00:09:58 --> ErrorException: Undefined variable $sistemas_dict
+in APPPATH\Views\produto\lista_produtos.php on line 29.
+ 1 APPPATH\Views\produto\lista_produtos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sistemas_dict', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produto/lista_produtos', [], true)
+ 5 APPPATH\Controllers\Produto.php(34): view('produto/lista_produtos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-16 00:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 00:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-16 00:11:09 --> ErrorException: Undefined array key 3
+in APPPATH\Views\produto\lista_produtos.php on line 45.
+ 1 APPPATH\Views\produto\lista_produtos.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produto/lista_produtos', [], true)
+ 5 APPPATH\Controllers\Produto.php(34): view('produto/lista_produtos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-16 00:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-16 00:12:37 --> ErrorException: Undefined array key 3
+in APPPATH\Views\produto\lista_produtos.php on line 41.
+ 1 APPPATH\Views\produto\lista_produtos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produto/lista_produtos', [], true)
+ 5 APPPATH\Controllers\Produto.php(34): view('produto/lista_produtos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-16 00:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-16 00:13:22 --> ErrorException: Undefined array key ""
+in APPPATH\Views\produto\lista_produtos.php on line 41.
+ 1 APPPATH\Views\produto\lista_produtos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produto/lista_produtos', [], true)
+ 5 APPPATH\Controllers\Produto.php(34): view('produto/lista_produtos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-16 00:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-16 00:13:29 --> ErrorException: Undefined array key ""
+in APPPATH\Views\produto\lista_produtos.php on line 41.
+ 1 APPPATH\Views\produto\lista_produtos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produto/lista_produtos', [], true)
+ 5 APPPATH\Controllers\Produto.php(34): view('produto/lista_produtos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-16 00:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 00:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 00:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 00:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-16 00:17:02 --> ErrorException: Undefined array key "segmento"
+in APPPATH\Views\produto\lista_produtos.php on line 41.
+ 1 APPPATH\Views\produto\lista_produtos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "segmento"', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produto/lista_produtos', [], true)
+ 5 APPPATH\Controllers\Produto.php(34): view('produto/lista_produtos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-16 00:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 00:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-16 00:17:31 --> ErrorException: Undefined array key 3
+in APPPATH\Views\produto\lista_produtos.php on line 45.
+ 1 APPPATH\Views\produto\lista_produtos.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\produto\\lista_produtos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produto/lista_produtos', [], true)
+ 5 APPPATH\Controllers\Produto.php(34): view('produto/lista_produtos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-16 00:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-16 00:46:05 --> BadMethodCallException: Call to undefined method App\Models\ConfiguracaoModel::obterConfiguracoes
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\QrCodeProduto.php(60): CodeIgniter\Model->__call('obterConfiguracoes', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\QrCodeProduto->get('54')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrCodeProduto))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-16 21:10:06 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-16 21:12:25 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('2')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-16 21:15:39 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-16 21:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-16 21:40:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$M_login is deprecated in APPPATH\Controllers\Login.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-04-16 21:40:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$M_login is deprecated in APPPATH\Controllers\Login.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-16 21:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 21:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 22:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 22:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-16 22:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-16 22:24:41 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('2')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-16 22:24:43 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(72): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(96): App\Models\AplicacaoModel->aplicacaoIds('2', '', '', '')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-16 22:24:55 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-16 22:24:57 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(72): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(96): App\Models\AplicacaoModel->aplicacaoIds('1', '', '', '')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

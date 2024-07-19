@@ -1,0 +1,898 @@
+ERROR - 2024-07-05 12:00:05 --> mysqli_sql_exception: Not unique table/alias: 'linha' in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro(Array, NULL, Array)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 12:00:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 2 APPPATH\Models\ProdutoModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:00:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 4 APPPATH\Models\ProdutoModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:00:05 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 5 APPPATH\Models\ProdutoModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 12:00:45 --> mysqli_sql_exception: Not unique table/alias: 'linha' in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro(Array, NULL, Array)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 12:00:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 2 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:00:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 4 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:00:45 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 5 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 12:01:38 --> mysqli_sql_exception: Not unique table/alias: 'linha' in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro(Array, NULL, Array)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 12:01:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 2 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:01:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 4 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:01:38 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 5 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 12:02:31 --> mysqli_sql_exception: Not unique table/alias: 'linha' in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro(Array, NULL, Array)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 12:02:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 2 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:02:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 4 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:02:31 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 5 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:05:37 --> InvalidArgumentException: whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(826): CodeIgniter\Database\BaseBuilder->_whereIn('sistema_id', Object(CodeIgniter\Database\MySQLi\Result), false, 'AND ', null)
+ 2 APPPATH\Models\ProdutoModel.php(115): CodeIgniter\Database\BaseBuilder->whereIn('sistema_id', Object(CodeIgniter\Database\MySQLi\Result))
+ 3 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], [...], null)
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 12:05:53 --> mysqli_sql_exception: Not unique table/alias: 'linha' in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro(Array, NULL, Array)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 12:05:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 2 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:05:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 4 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:05:53 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 5 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 12:06:33 --> mysqli_sql_exception: Not unique table/alias: 'linha' in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro(Array, NULL, Array)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 12:06:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 2 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:06:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 4 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:06:33 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 5 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 12:06:44 --> mysqli_sql_exception: Not unique table/alias: 'linha' in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro(Array, NULL, Array)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 12:06:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 2 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:06:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 4 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:06:44 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 5 APPPATH\Models\ProdutoModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:06:47 --> InvalidArgumentException: whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(826): CodeIgniter\Database\BaseBuilder->_whereIn('sistema_id', Object(stdClass), false, 'AND ', null)
+ 2 APPPATH\Models\ProdutoModel.php(115): CodeIgniter\Database\BaseBuilder->whereIn('sistema_id', Object(stdClass))
+ 3 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], [...], null)
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:08:26 --> InvalidArgumentException: whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(826): CodeIgniter\Database\BaseBuilder->_whereIn('sistema_id', Object(CodeIgniter\Database\MySQLi\Result), false, 'AND ', null)
+ 2 APPPATH\Models\ProdutoModel.php(116): CodeIgniter\Database\BaseBuilder->whereIn('sistema_id', Object(CodeIgniter\Database\MySQLi\Result))
+ 3 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], [...], null)
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 12:09:52 --> mysqli_sql_exception: Not unique table/alias: 'linha' in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro(Array, NULL, Array)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 12:09:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 2 APPPATH\Models\ProdutoModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:09:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 4 APPPATH\Models\ProdutoModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:09:52 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Acionador de freio\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 5 APPPATH\Models\ProdutoModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 12:09:58 --> mysqli_sql_exception: Not unique table/alias: 'linha' in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro(Array, NULL, Array)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 12:09:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 2 APPPATH\Models\ProdutoModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:09:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Motores\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Motores\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 4 APPPATH\Models\ProdutoModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:09:58 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'linha'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Motores\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Motores\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN (\'Motores\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `linha`, `linha`
+WHERE `nome` IN :nome:', [...], false)
+ 5 APPPATH\Models\ProdutoModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], null, [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 12:11:22 --> mysqli_sql_exception: Not unique table/alias: 'sistema' in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro(Array, Array, NULL)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 12:11:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'sistema'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `sistema`, `sistema`
+WHERE `nome` IN :nome:', [...], false)
+ 2 APPPATH\Models\ProdutoModel.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], [...], null)
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:11:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'sistema'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `sistema`, `sistema`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `sistema`, `sistema`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `sistema`, `sistema`
+WHERE `nome` IN :nome:', [...], false)
+ 4 APPPATH\Models\ProdutoModel.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], [...], null)
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 12:11:22 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'sistema'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`
+FROM `sistema`, `sistema`
+WHERE `nome` IN (\'Arrefecimento\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `sistema`, `sistema`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `sistema`, `sistema`
+WHERE `nome` IN (\'Arrefecimento\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `sistema`, `sistema`
+WHERE `nome` IN :nome:', [...], false)
+ 5 APPPATH\Models\ProdutoModel.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rest.php(146): App\Models\ProdutoModel->pesquisarFiltro([...], [...], null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtrar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 13:14:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'pixcatalogo'@'138.99.35.2' (using password: YES) in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('162.240.168.181', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\LinhaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(85): App\Models\LinhaModel->listarLinhas()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->linha()
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'138.99.35.2' (using password: YES) in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\LinhaModel.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(85): App\Models\LinhaModel->listarLinhas()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->linha()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-05 13:14:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'138.99.35.2' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT *
+FROM `linha`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LinhaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Rest.php(85): App\Models\LinhaModel->listarLinhas()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->linha()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 13:14:22 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'pixcatalogo'@'138.99.35.2' (using password: YES) in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('162.240.168.181', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\AplicacaoModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(91): App\Models\AplicacaoModel->sistema()
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->sistema()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'138.99.35.2' (using password: YES) in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\AplicacaoModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(91): App\Models\AplicacaoModel->sistema()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->sistema()
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-05 13:14:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'138.99.35.2' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sistema`', [], false)
+ 3 APPPATH\Models\AplicacaoModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Rest.php(91): App\Models\AplicacaoModel->sistema()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->sistema()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 13:14:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'pixcatalogo'@'138.99.35.2' (using password: YES) in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('162.240.168.181', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(93): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(138): App\Models\ProdutoModel->pesquisarFiltros()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->filtros()
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'138.99.35.2' (using password: YES) in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(93): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(138): App\Models\ProdutoModel->pesquisarFiltros()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->filtros()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-05 13:14:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'138.99.35.2' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT `marca`
+FROM `produtos`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\ProdutoModel.php(93): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Rest.php(138): App\Models\ProdutoModel->pesquisarFiltros()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->filtros()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 13:14:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'pixcatalogo'@'138.99.35.2' (using password: YES) in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('162.240.168.181', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral('')
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'138.99.35.2' (using password: YES) in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(69): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral('')
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-05 13:14:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'138.99.35.2' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `aplicacao`
+WHERE `montadora` LIKE :montadora: ESCAPE \'!\'
+OR  `veiculo` LIKE :veiculo: ESCAPE \'!\'
+OR  `modelo` LIKE :modelo: ESCAPE \'!\'
+OR  `motor` LIKE :motor: ESCAPE \'!\'
+OR  `conf_motor` LIKE :conf_motor: ESCAPE \'!\'
+OR  `inicio` LIKE :inicio: ESCAPE \'!\'
+OR  `fim` LIKE :fim: ESCAPE \'!\'', [...], false)
+ 3 APPPATH\Models\ProdutoModel.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral('')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 13:14:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'pixcatalogo'@'138.99.35.2' (using password: YES) in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('162.240.168.181', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral('')
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'138.99.35.2' (using password: YES) in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(69): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral('')
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-05 13:14:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'138.99.35.2' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `aplicacao`
+WHERE `montadora` LIKE :montadora: ESCAPE \'!\'
+OR  `veiculo` LIKE :veiculo: ESCAPE \'!\'
+OR  `modelo` LIKE :modelo: ESCAPE \'!\'
+OR  `motor` LIKE :motor: ESCAPE \'!\'
+OR  `conf_motor` LIKE :conf_motor: ESCAPE \'!\'
+OR  `inicio` LIKE :inicio: ESCAPE \'!\'
+OR  `fim` LIKE :fim: ESCAPE \'!\'', [...], false)
+ 3 APPPATH\Models\ProdutoModel.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral('')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 13:16:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'pixcatalogo'@'138.99.35.2' (using password: YES) in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('162.240.168.181', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral('')
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'138.99.35.2' (using password: YES) in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\ProdutoModel.php(69): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral('')
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-05 13:16:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'138.99.35.2' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `aplicacao`
+WHERE `montadora` LIKE :montadora: ESCAPE \'!\'
+OR  `veiculo` LIKE :veiculo: ESCAPE \'!\'
+OR  `modelo` LIKE :modelo: ESCAPE \'!\'
+OR  `motor` LIKE :motor: ESCAPE \'!\'
+OR  `conf_motor` LIKE :conf_motor: ESCAPE \'!\'
+OR  `inicio` LIKE :inicio: ESCAPE \'!\'
+OR  `fim` LIKE :fim: ESCAPE \'!\'', [...], false)
+ 3 APPPATH\Models\ProdutoModel.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral('')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

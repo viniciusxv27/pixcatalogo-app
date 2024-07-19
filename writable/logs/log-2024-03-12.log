@@ -1,0 +1,329 @@
+ERROR - 2024-03-12 17:31:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1 in /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT MIN(`ini...', 0)
+#1 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`ini...')
+#2 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`ini...')
+#3 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`ini...', Array, false)
+#4 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/pixcatalogo/corven3.pixcatalogo.com.br/app/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', Array)
+#6 /home/pixcatalogo/corven3.pixcatalogo.com.br/app/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Fiat', 'IDEA')
+#7 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\Rest->ano()
+#8 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#9 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/pixcatalogo/corven3.pixcatalogo.com.br/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-12 17:31:53 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 2 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Fiat', 'IDEA')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 17:31:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Fiat\'
+AND `veiculo` = \'IDEA\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Fiat\'
+AND `veiculo` = \'IDEA\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 4 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Fiat', 'IDEA')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 17:31:53 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Fiat\'
+AND `veiculo` = \'IDEA\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Fiat\'
+AND `veiculo` = \'IDEA\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Fiat\'
+AND `veiculo` = \'IDEA\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 5 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Fiat', 'IDEA')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 17:31:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1 in /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT MIN(`ini...', 0)
+#1 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`ini...')
+#2 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`ini...')
+#3 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`ini...', Array, false)
+#4 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/pixcatalogo/corven3.pixcatalogo.com.br/app/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', Array)
+#6 /home/pixcatalogo/corven3.pixcatalogo.com.br/app/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Fiat', 'PALIO')
+#7 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\Rest->ano()
+#8 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#9 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/pixcatalogo/corven3.pixcatalogo.com.br/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-12 17:31:56 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 2 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Fiat', 'PALIO')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 17:31:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Fiat\'
+AND `veiculo` = \'PALIO\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Fiat\'
+AND `veiculo` = \'PALIO\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 4 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Fiat', 'PALIO')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 17:31:56 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Fiat\'
+AND `veiculo` = \'PALIO\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Fiat\'
+AND `veiculo` = \'PALIO\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Fiat\'
+AND `veiculo` = \'PALIO\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 5 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Fiat', 'PALIO')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 17:31:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1 in /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT MIN(`ini...', 0)
+#1 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`ini...')
+#2 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`ini...')
+#3 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`ini...', Array, false)
+#4 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/pixcatalogo/corven3.pixcatalogo.com.br/app/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', Array)
+#6 /home/pixcatalogo/corven3.pixcatalogo.com.br/app/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Ford', 'FIESTA')
+#7 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\Rest->ano()
+#8 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#9 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/pixcatalogo/corven3.pixcatalogo.com.br/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-12 17:31:59 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 2 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Ford', 'FIESTA')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 17:31:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Ford\'
+AND `veiculo` = \'FIESTA\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Ford\'
+AND `veiculo` = \'FIESTA\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 4 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Ford', 'FIESTA')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 17:31:59 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Ford\'
+AND `veiculo` = \'FIESTA\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Ford\'
+AND `veiculo` = \'FIESTA\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Ford\'
+AND `veiculo` = \'FIESTA\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 5 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Ford', 'FIESTA')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-12 17:32:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1 in /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT MIN(`ini...', 0)
+#1 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`ini...')
+#2 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`ini...')
+#3 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`ini...', Array, false)
+#4 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/pixcatalogo/corven3.pixcatalogo.com.br/app/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', Array)
+#6 /home/pixcatalogo/corven3.pixcatalogo.com.br/app/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Chevrolet', 'Opala')
+#7 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\Rest->ano()
+#8 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#9 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/pixcatalogo/corven3.pixcatalogo.com.br/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-12 17:32:05 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 2 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Chevrolet', 'Opala')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 17:32:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Chevrolet\'
+AND `veiculo` = \'Opala\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Chevrolet\'
+AND `veiculo` = \'Opala\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 4 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Chevrolet', 'Opala')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 17:32:05 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Chevrolet\'
+AND `veiculo` = \'Opala\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Chevrolet\'
+AND `veiculo` = \'Opala\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Chevrolet\'
+AND `veiculo` = \'Opala\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 5 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Chevrolet', 'Opala')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-12 21:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 21:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 21:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 21:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 21:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 21:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 21:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-12 21:58:54 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/catalogo.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/catalogo.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(89): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-12 21:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 21:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 21:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 21:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 21:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 21:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 21:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 21:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 22:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 22:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 22:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 22:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 22:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 22:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 22:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 22:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 22:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 22:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-12 22:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

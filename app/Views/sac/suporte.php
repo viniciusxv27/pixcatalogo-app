@@ -1,0 +1,1 @@
+<iframe src="<?php echo base_url('garantia/admin/index.php'); ?>" width="100%" height="1400px" frameborder="0"></iframe>

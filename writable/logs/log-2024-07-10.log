@@ -1,0 +1,57 @@
+CRITICAL - 2024-07-10 12:57:38 --> ErrorException: fopen(): Remote host file access not supported, file://catalogo.pdf
+in FCPATH\vendor\tecnickcom\tcpdf\include\tcpdf_static.php on line 1811.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Remote host file access not supported, file://catalogo.pdf', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Inova Desenvolvimento\\Pix Catalogo\\aplicativo\\vendor\\tecnickcom\\tcpdf\\include\\tcpdf_static.php', 1811)
+ 2 FCPATH\vendor\tecnickcom\tcpdf\include\tcpdf_static.php(1811): fopen('file://catalogo.pdf', 'wb')
+ 3 FCPATH\vendor\tecnickcom\tcpdf\tcpdf.php(7776): TCPDF_STATIC::fopenLocal('file://catalogo.pdf', 'wb')
+ 4 APPPATH\Models\ProdutoModel.php(157): TCPDF->Output('catalogo.pdf', 'F')
+ 5 APPPATH\Controllers\Rest.php(177): App\Models\ProdutoModel->gerarPdf([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->gerar_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 12:59:01 --> ErrorException: fopen(): Remote host file access not supported, file://catalogo.pdf
+in FCPATH\vendor\tecnickcom\tcpdf\include\tcpdf_static.php on line 1811.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Remote host file access not supported, file://catalogo.pdf', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Inova Desenvolvimento\\Pix Catalogo\\aplicativo\\vendor\\tecnickcom\\tcpdf\\include\\tcpdf_static.php', 1811)
+ 2 FCPATH\vendor\tecnickcom\tcpdf\include\tcpdf_static.php(1811): fopen('file://catalogo.pdf', 'wb')
+ 3 FCPATH\vendor\tecnickcom\tcpdf\tcpdf.php(7776): TCPDF_STATIC::fopenLocal('file://catalogo.pdf', 'wb')
+ 4 APPPATH\Controllers\Rest.php(209): TCPDF->Output('catalogo.pdf', 'F')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->gerar_pdf()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 13:00:28 --> ErrorException: fopen(): Remote host file access not supported, file://catalogo.pdf
+in FCPATH\vendor\tecnickcom\tcpdf\include\tcpdf_static.php on line 1811.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Remote host file access not supported, file://catalogo.pdf', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Inova Desenvolvimento\\Pix Catalogo\\aplicativo\\vendor\\tecnickcom\\tcpdf\\include\\tcpdf_static.php', 1811)
+ 2 FCPATH\vendor\tecnickcom\tcpdf\include\tcpdf_static.php(1811): fopen('file://catalogo.pdf', 'wb')
+ 3 FCPATH\vendor\tecnickcom\tcpdf\tcpdf.php(7776): TCPDF_STATIC::fopenLocal('file://catalogo.pdf', 'wb')
+ 4 APPPATH\Controllers\Rest.php(209): TCPDF->Output('catalogo.pdf', 'F')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->gerar_pdf()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 13:19:11 --> ErrorException: Attempt to read property "aplicacao_ids" on array
+in APPPATH\Models\ProdutoModel.php on line 128.
+ 1 APPPATH\Models\ProdutoModel.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aplicacao_ids" on array', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Inova Desenvolvimento\\Pix Catalogo\\aplicativo\\app\\Models\\ProdutoModel.php', 128)
+ 2 APPPATH\Controllers\Rest.php(177): App\Models\ProdutoModel->gerarPdf([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->gerar_pdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 13:24:42 --> InvalidArgumentException: whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(826): CodeIgniter\Database\BaseBuilder->_whereIn('id', '["5","9"]', false, 'AND ', null)
+ 2 APPPATH\Models\ProdutoModel.php(128): CodeIgniter\Database\BaseBuilder->whereIn('id', '["5","9"]')
+ 3 APPPATH\Controllers\Rest.php(177): App\Models\ProdutoModel->gerarPdf([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->gerar_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 13:24:53 --> InvalidArgumentException: whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(826): CodeIgniter\Database\BaseBuilder->_whereIn('id', '["5","9"]', false, 'AND ', null)
+ 2 APPPATH\Models\ProdutoModel.php(128): CodeIgniter\Database\BaseBuilder->whereIn('id', '["5","9"]')
+ 3 APPPATH\Controllers\Rest.php(177): App\Models\ProdutoModel->gerarPdf([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->gerar_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

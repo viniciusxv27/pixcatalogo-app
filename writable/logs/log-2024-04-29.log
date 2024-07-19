@@ -1,0 +1,25 @@
+CRITICAL - 2024-04-29 17:55:14 --> InvalidArgumentException: whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(826): CodeIgniter\Database\BaseBuilder->_whereIn('aplicacao_ids', '"3"', false, 'AND ', null)
+ 2 APPPATH\Models\AplicacaoModel.php(99): CodeIgniter\Database\BaseBuilder->whereIn('aplicacao_ids', '"3"')
+ 3 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([...], '1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-29 18:03:50 --> TypeError: Illegal offset type
+in SYSTEMPATH\Database\BaseBuilder.php on line 740.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(698): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), null, 'AND ', null)
+ 2 APPPATH\Models\AplicacaoModel.php(99): CodeIgniter\Database\BaseBuilder->where(Object(Closure))
+ 3 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([...], '1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-29 18:04:59 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::orWhereRaw()
+in APPPATH\Models\AplicacaoModel.php on line 101.
+ 1 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([...], '1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

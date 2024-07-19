@@ -1,0 +1,66 @@
+CRITICAL - 2024-03-22 14:51:50 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 146.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Produto.php(55): CodeIgniter\HTTP\Files\UploadedFile->move('./uploads/produtos/', 's.')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('17')
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-22 14:51:57 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 146.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Produto.php(55): CodeIgniter\HTTP\Files\UploadedFile->move('./uploads/produtos/', 's.')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('17')
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-22 14:52:14 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 146.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Produto.php(55): CodeIgniter\HTTP\Files\UploadedFile->move('./uploads/produtos/', 's.')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('17')
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-22 18:38:31 --> Error: Class "TCPDF" not found
+in APPPATH/Controllers/Pdf.php on line 137.
+ 1 APPPATH/Controllers/Pdf.php(108): App\Controllers\Pdf->criar_pdf('sss', 'uploads/pdfs/capa/sss.png', 'uploads/pdfs/capa2/sss.png', 'uploads/pdfs/capa3/sss.png')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pdf->criar_editar()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-22 18:39:58 --> Error: Class "TCPDF" not found
+in APPPATH/Controllers/Pdf.php on line 137.
+ 1 APPPATH/Controllers/Pdf.php(108): App\Controllers\Pdf->criar_pdf('dsadsa', 'uploads/pdfs/capa/dsadsa.png', 'uploads/pdfs/capa2/dsadsa.png', 'uploads/pdfs/capa3/dsadsa.png')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pdf->criar_editar()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-22 18:40:48 --> Error: Class "TCPDF" not found
+in APPPATH/Controllers/Pdf.php on line 137.
+ 1 APPPATH/Controllers/Pdf.php(108): App\Controllers\Pdf->criar_pdf('dsadsa', 'uploads/pdfs/capa/dsadsa.png', 'uploads/pdfs/capa2/dsadsa.png', 'uploads/pdfs/capa3/dsadsa.png')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pdf->criar_editar()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-22 18:43:10 --> Error: Class "TCPDF" not found
+in APPPATH/Controllers/Pdf.php on line 137.
+ 1 APPPATH/Controllers/Pdf.php(108): App\Controllers\Pdf->criar_pdf('dsadsa', 'uploads/pdfs/capa/dsadsa.png', 'uploads/pdfs/capa2/dsadsa.png', 'uploads/pdfs/capa3/dsadsa.png')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pdf->criar_editar()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-22 18:47:01 --> Error: Class "TCPDF" not found
+in APPPATH/Controllers/Pdf.php on line 137.
+ 1 APPPATH/Controllers/Pdf.php(108): App\Controllers\Pdf->criar_pdf('dsadsa', 'uploads/pdfs/capa/dsadsa.png', 'uploads/pdfs/capa2/dsadsa.png', 'uploads/pdfs/capa3/dsadsa.png')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pdf->criar_editar()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-22 19:56:09 --> Error: Class "TCPDF" not found
+in APPPATH/Controllers/Pdf.php on line 137.
+ 1 APPPATH/Controllers/Pdf.php(108): App\Controllers\Pdf->criar_pdf('dsadsa', 'uploads/pdfs/capa/dsadsa.png', 'uploads/pdfs/capa2/dsadsa.png', 'uploads/pdfs/capa3/dsadsa.png')
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pdf->criar_editar()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

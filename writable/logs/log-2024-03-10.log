@@ -1,0 +1,40 @@
+INFO - 2024-03-10 20:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 20:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 20:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 20:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 20:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-10 20:51:51 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(89): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-10 20:51:51 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(89): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-10 20:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 20:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 20:51:55 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(89): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-10 20:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

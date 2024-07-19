@@ -1,0 +1,6 @@
+CRITICAL - 2024-03-21 16:42:12 --> Error: Call to a member function isValid() on null
+in APPPATH/Controllers/Produto.php on line 74.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

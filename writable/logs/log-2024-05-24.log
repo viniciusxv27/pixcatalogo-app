@@ -1,0 +1,34 @@
+CRITICAL - 2024-05-24 05:13:07 --> TypeError: CodeIgniter\Database\BaseBuilder::orLike(): Argument #2 ($match) must be of type string, array given, called in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\codeigniter\vendor\codeigniter4\framework\system\Model.php on line 872
+in SYSTEMPATH\Database\BaseBuilder.php on line 1010.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->orLike('aplicacao_ids', [])
+ 2 APPPATH\Models\ProdutoModel.php(57): CodeIgniter\Model->__call('orLike', [...])
+ 3 APPPATH\Controllers\Rest.php(126): App\Models\ProdutoModel->pesquisarProdutosGeral('DUSTE', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 05:14:11 --> TypeError: CodeIgniter\Database\BaseBuilder::orLike(): Argument #2 ($match) must be of type string, array given, called in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\codeigniter\vendor\codeigniter4\framework\system\Model.php on line 872
+in SYSTEMPATH\Database\BaseBuilder.php on line 1010.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->orLike('aplicacao_ids', [])
+ 2 APPPATH\Models\ProdutoModel.php(57): CodeIgniter\Model->__call('orLike', [...])
+ 3 APPPATH\Controllers\Rest.php(126): App\Models\ProdutoModel->pesquisarProdutosGeral('DUSTER', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 14:15:46 --> ErrorException: Undefined array key "sistema"
+in APPPATH\Controllers\Rest.php on line 104.
+ 1 APPPATH\Controllers\Rest.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sistema"', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\codeigniter\\app\\Controllers\\Rest.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 14:23:14 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\codeigniter\vendor\codeigniter4\framework\system\Model.php on line 872
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->like('sistema_id', null)
+ 2 APPPATH\Models\ProdutoModel.php(62): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Rest.php(133): App\Models\ProdutoModel->pesquisarProdutosSistema(null)
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->buscar_sistema()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

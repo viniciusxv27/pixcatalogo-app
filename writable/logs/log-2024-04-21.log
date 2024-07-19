@@ -1,0 +1,84 @@
+INFO - 2024-04-21 17:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-21 17:45:50 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=3956 in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\Users\\vinic\\...', 184)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('15.235.117.162', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\ConfiguracaoModel.php(15): CodeIgniter\BaseModel->find(1)
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\Login.php(22): App\Models\ConfiguracaoModel->obterConfiguracao()
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Login->index()
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#11 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('15.235.117.162', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\ConfiguracaoModel.php(15): CodeIgniter\BaseModel->find(1)
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\Login.php(22): App\Models\ConfiguracaoModel->obterConfiguracao()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Login->index()
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\ConfiguracaoModel.php(15): CodeIgniter\BaseModel->find(1)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\Login.php(22): App\Models\ConfiguracaoModel->obterConfiguracao()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Login->index()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 17:45:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `configuracao`
+WHERE `configuracao`.`id_config` = :configuracao.id_config:', [...], false)
+ 3 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH\Models\ConfiguracaoModel.php(15): CodeIgniter\BaseModel->find(1)
+ 6 APPPATH\Controllers\Login.php(22): App\Models\ConfiguracaoModel->obterConfiguracao()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 17:48:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-21 17:48:13 --> 
+hello: 
+The following SMTP error was encountered: 
+starttls: 
+The following SMTP error was encountered: 
+The following SMTP error was encountered: 
+ERROR - 2024-04-21 17:50:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-21 17:50:02 --> 
+hello: 
+The following SMTP error was encountered: 
+starttls: 
+The following SMTP error was encountered: 
+The following SMTP error was encountered: 
+ERROR - 2024-04-21 17:50:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-21 17:50:38 --> 
+hello: 
+The following SMTP error was encountered: 
+starttls: 
+The following SMTP error was encountered: 
+The following SMTP error was encountered: 

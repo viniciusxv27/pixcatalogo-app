@@ -1,0 +1,44 @@
+CRITICAL - 2024-03-26 13:07:32 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/qr_code.php on line 133.
+ 1 APPPATH/Views/qr_code.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/pixcatalogo/catalogo.pixcatalogo.com.br/app/Views/qr_code.php', 133)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/catalogo.pixcatalogo.com.br/app/Views/qr_code.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('qr_code', [], true)
+ 5 APPPATH/Controllers/QrCodeProduto.php(60): view('qr_code', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\QrCodeProduto->get('34')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrCodeProduto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 13:31:48 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/qr_code.php on line 133.
+ 1 APPPATH/Views/qr_code.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/pixcatalogo/catalogo.pixcatalogo.com.br/app/Views/qr_code.php', 133)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/catalogo.pixcatalogo.com.br/app/Views/qr_code.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('qr_code', [], true)
+ 5 APPPATH/Controllers/QrCodeProduto.php(60): view('qr_code', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\QrCodeProduto->get('43')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrCodeProduto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 17:58:08 --> ErrorException: fopen(): Remote host file access not supported, file://ejemplo_tcpdf.pdf
+in FCPATH/vendor/tecnickcom/tcpdf/include/tcpdf_static.php on line 1811.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Remote host file access not supported, file://ejemplo_tcpdf.pdf', '/home/pixcatalogo/catalogo.pixcatalogo.com.br/vendor/tecnickcom/tcpdf/include/tcpdf_static.php', 1811)
+ 2 FCPATH/vendor/tecnickcom/tcpdf/include/tcpdf_static.php(1811): fopen('file://ejemplo_tcpdf.pdf', 'wb')
+ 3 FCPATH/vendor/tecnickcom/tcpdf/tcpdf.php(7776): TCPDF_STATIC::fopenLocal('file://ejemplo_tcpdf.pdf', 'wb')
+ 4 APPPATH/Controllers/Pdf.php(60): TCPDF->Output('ejemplo_tcpdf.pdf', 'F')
+ 5 APPPATH/Controllers/Pdf.php(140): App\Controllers\Pdf->gerar_pdf()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pdf->criar_editar('18')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 17:58:15 --> ErrorException: fopen(): Remote host file access not supported, file://ejemplo_tcpdf.pdf
+in FCPATH/vendor/tecnickcom/tcpdf/include/tcpdf_static.php on line 1811.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Remote host file access not supported, file://ejemplo_tcpdf.pdf', '/home/pixcatalogo/catalogo.pixcatalogo.com.br/vendor/tecnickcom/tcpdf/include/tcpdf_static.php', 1811)
+ 2 FCPATH/vendor/tecnickcom/tcpdf/include/tcpdf_static.php(1811): fopen('file://ejemplo_tcpdf.pdf', 'wb')
+ 3 FCPATH/vendor/tecnickcom/tcpdf/tcpdf.php(7776): TCPDF_STATIC::fopenLocal('file://ejemplo_tcpdf.pdf', 'wb')
+ 4 APPPATH/Controllers/Pdf.php(60): TCPDF->Output('ejemplo_tcpdf.pdf', 'F')
+ 5 APPPATH/Controllers/Pdf.php(140): App\Controllers\Pdf->gerar_pdf()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pdf->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdf))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

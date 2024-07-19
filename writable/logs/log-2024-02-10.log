@@ -1,0 +1,117 @@
+INFO - 2024-02-10 01:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 01:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-10 12:43:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1 in /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT MIN(`ini...', 0)
+#1 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`ini...')
+#2 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`ini...')
+#3 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`ini...', Array, false)
+#4 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/pixcatalogo/corven3.pixcatalogo.com.br/app/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', Array)
+#6 /home/pixcatalogo/corven3.pixcatalogo.com.br/app/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Chevrolet', 'S10')
+#7 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\Rest->ano()
+#8 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#9 /home/pixcatalogo/corven3.pixcatalogo.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/pixcatalogo/corven3.pixcatalogo.com.br/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-02-10 12:43:27 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 2 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Chevrolet', 'S10')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 12:43:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Chevrolet\'
+AND `veiculo` = \'S10\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Chevrolet\'
+AND `veiculo` = \'S10\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 4 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Chevrolet', 'S10')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 12:43:27 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `v...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Chevrolet\'
+AND `veiculo` = \'S10\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Chevrolet\'
+AND `veiculo` = \'S10\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = \'Chevrolet\'
+AND `veiculo` = \'S10\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT MIN(`inicio` as `valor_minimo_inicio`) AS `inicio as valor_minimo_inicio`, MAX(`fim` as `valor_maximo_fim`) AS `fim as valor_maximo_fim`
+FROM `aplicacao`
+WHERE `montadora` = :montadora:
+AND `veiculo` = :veiculo:', [...], false)
+ 5 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Models/AplicacaoModel.php(67): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH/Controllers/Rest.php(66): App\Models\AplicacaoModel->ano('Chevrolet', 'S10')
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Rest->ano()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-10 12:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 12:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 12:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 12:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 12:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 12:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 12:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 12:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 12:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 13:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 14:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 18:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 18:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 18:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 20:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-10 20:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,22 @@
+CRITICAL - 2024-03-18 02:40:58 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 153.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(153): in_array('2', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/catalogo.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(80): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('9')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 02:53:17 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 153.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(153): in_array('2', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/catalogo.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(80): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('9')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

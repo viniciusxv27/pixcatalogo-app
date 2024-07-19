@@ -1,0 +1,40 @@
+INFO - 2024-04-13 01:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-13 01:29:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$M_login is deprecated in APPPATH\Controllers\Login.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-04-13 01:29:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$M_login is deprecated in APPPATH\Controllers\Login.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 01:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-13 01:40:51 --> ErrorException: Undefined variable $rodape_local
+in APPPATH\Views\app\index.php on line 336.
+ 1 APPPATH\Views\app\index.php(336): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rodape_local', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\app\\index.php', 336)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\app\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('app/index', [], true)
+ 5 APPPATH\Controllers\App.php(24): view('app/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\App->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 01:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-13 02:07:09 --> ErrorException: Undefined array key "telefone"
+in APPPATH\Views\app\index.php on line 358.
+ 1 APPPATH\Views\app\index.php(358): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "telefone"', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\app\\index.php', 358)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\app\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('app/index', [], true)
+ 5 APPPATH\Controllers\App.php(24): view('app/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\App->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 02:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

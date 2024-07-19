@@ -1,0 +1,43 @@
+INFO - 2024-06-07 12:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 12:03:22 --> BadMethodCallException: Call to undefined method App\Models\AplicacaoModel::pesquisarProdutosGeral
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Rest.php(125): CodeIgniter\Model->__call('pesquisarProdutosGeral', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-07 12:03:43 --> ArgumentCountError: Too few arguments to function App\Models\ProdutoModel::pesquisarProdutosGeral(), 1 passed in C:\Users\vinic\OneDrive\Área de Trabalho\Pix Catalogo\codeigniter\app\Controllers\Rest.php on line 125 and exactly 2 expected
+in APPPATH\Models\ProdutoModel.php on line 55.
+ 1 APPPATH\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral('')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-07 12:03:46 --> ArgumentCountError: Too few arguments to function App\Models\ProdutoModel::pesquisarProdutosGeral(), 1 passed in C:\Users\vinic\OneDrive\Área de Trabalho\Pix Catalogo\codeigniter\app\Controllers\Rest.php on line 125 and exactly 2 expected
+in APPPATH\Models\ProdutoModel.php on line 55.
+ 1 APPPATH\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral('')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-07 12:05:19 --> ArgumentCountError: Too few arguments to function App\Models\ProdutoModel::pesquisarProdutosGeral(), 1 passed in C:\Users\vinic\OneDrive\Área de Trabalho\Pix Catalogo\codeigniter\app\Controllers\Rest.php on line 125 and exactly 2 expected
+in APPPATH\Models\ProdutoModel.php on line 55.
+ 1 APPPATH\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral('')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-07 12:05:22 --> ArgumentCountError: Too few arguments to function App\Models\ProdutoModel::pesquisarProdutosGeral(), 1 passed in C:\Users\vinic\OneDrive\Área de Trabalho\Pix Catalogo\codeigniter\app\Controllers\Rest.php on line 125 and exactly 2 expected
+in APPPATH\Models\ProdutoModel.php on line 55.
+ 1 APPPATH\Controllers\Rest.php(125): App\Models\ProdutoModel->pesquisarProdutosGeral('')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->buscar_geral()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-07 12:15:39 --> ArgumentCountError: Too few arguments to function App\Models\AplicacaoModel::aplicacaoIds(), 4 passed in C:\Users\vinic\OneDrive\Área de Trabalho\Pix Catalogo\codeigniter\app\Controllers\Rest.php on line 99 and exactly 5 expected
+in APPPATH\Models\AplicacaoModel.php on line 70.
+ 1 APPPATH\Controllers\Rest.php(99): App\Models\AplicacaoModel->aplicacaoIds('1', 'FORD', '', '')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

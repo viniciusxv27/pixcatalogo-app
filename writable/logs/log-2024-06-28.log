@@ -1,0 +1,69 @@
+ERROR - 2024-06-28 03:02:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL' at line 4 in C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Models\AplicacaoModel.php(109): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\app\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos(Array, '1')
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Inova Desenvolvimento\Pix Catalogo\aplicativo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-28 03:02:23 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = :sistema_id:
+AND  IS NULL', [...], false)
+ 2 APPPATH\Models\AplicacaoModel.php(109): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([], '1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 03:02:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'1\'
+AND  IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'1\'
+AND  IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = :sistema_id:
+AND  IS NULL', [...], false)
+ 4 APPPATH\Models\AplicacaoModel.php(109): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([], '1')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 03:02:23 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'1\'
+AND  IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'1\'
+AND  IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = \'1\'
+AND  IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`
+WHERE `sistema_id` = :sistema_id:
+AND  IS NULL', [...], false)
+ 5 APPPATH\Models\AplicacaoModel.php(109): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rest.php(104): App\Models\AplicacaoModel->aplicacaoProdutos([], '1')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->busca_avancada()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

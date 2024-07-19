@@ -1,0 +1,37 @@
+[08-Feb-2024 11:49:00 America/Recife] PHP Warning:  require(/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:49:00 America/Recife] PHP Warning:  require(/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:49:00 America/Recife] PHP Fatal error:  Uncaught Error: Failed opening required '/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:49:01 America/Recife] PHP Warning:  require(/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:49:01 America/Recife] PHP Warning:  require(/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:49:01 America/Recife] PHP Fatal error:  Uncaught Error: Failed opening required '/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:49:43 America/Recife] PHP Warning:  require(/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:49:43 America/Recife] PHP Warning:  require(/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:49:43 America/Recife] PHP Fatal error:  Uncaught Error: Failed opening required '/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:52:22 America/Recife] PHP Warning:  require(/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:52:22 America/Recife] PHP Warning:  require(/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:52:22 America/Recife] PHP Fatal error:  Uncaught Error: Failed opening required '/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:54:03 America/Recife] PHP Warning:  require(/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php): failed to open stream: No such file or directory in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:54:03 America/Recife] PHP Fatal error:  require(): Failed opening required '/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:54:05 America/Recife] PHP Warning:  require(/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php): failed to open stream: No such file or directory in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:54:05 America/Recife] PHP Fatal error:  require(): Failed opening required '/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:54:12 America/Recife] PHP Warning:  require(/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:54:12 America/Recife] PHP Warning:  require(/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[08-Feb-2024 11:54:12 America/Recife] PHP Fatal error:  Uncaught Error: Failed opening required '/home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/pixcatalogo/corven3.pixcatalogo.com.br/corvenatualizado/index.php on line 34
+[09-Feb-2024 17:10:36 UTC] PHP Fatal error:  Cannot declare class App\Controllers\Aplicacao, because the name is already in use in /home/pixcatalogo/corven3.pixcatalogo.com.br/app/Models/AplicacaoModel.php on line 0
+[09-Feb-2024 17:10:41 UTC] PHP Fatal error:  Cannot declare class App\Controllers\Aplicacao, because the name is already in use in /home/pixcatalogo/corven3.pixcatalogo.com.br/app/Models/AplicacaoModel.php on line 0
+[09-Feb-2024 17:10:42 UTC] PHP Fatal error:  Cannot declare class App\Controllers\Aplicacao, because the name is already in use in /home/pixcatalogo/corven3.pixcatalogo.com.br/app/Models/AplicacaoModel.php on line 0

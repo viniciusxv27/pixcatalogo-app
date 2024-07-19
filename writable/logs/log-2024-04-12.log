@@ -1,0 +1,908 @@
+CRITICAL - 2024-04-12 17:28:08 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:28:45 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('3')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:28:48 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('2')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:29:04 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 17:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 17:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 17:31:35 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('3')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:39:05 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('2')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:41:09 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:42:33 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 17:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-12 17:48:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$M_login is deprecated in APPPATH\Controllers\Login.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-04-12 17:48:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$M_login is deprecated in APPPATH\Controllers\Login.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 17:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 17:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 17:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 17:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 18:14:18 --> Error: Call to undefined function CodeIgniter\Database\mb_stripos()
+in SYSTEMPATH\Database\BaseBuilder.php on line 424.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->select([...])
+ 2 APPPATH\Models\AplicacaoModel.php(57): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Rest.php(39): App\Models\AplicacaoModel->montadoras('1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Rest->montadora()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rest))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:14:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\qr_code.php on line 139.
+ 1 APPPATH\Views\qr_code.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\qr_code.php', 139)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\qr_code.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('qr_code', [], true)
+ 5 APPPATH\Controllers\QrCodeProduto.php(60): view('qr_code', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\QrCodeProduto->get('21')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrCodeProduto))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 18:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 18:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 19:29:30 --> ErrorException: Undefined array key "logo"
+in APPPATH\Views\configuracao\index.php on line 24.
+ 1 APPPATH\Views\configuracao\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logo"', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\configuracao\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\configuracao\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracao/index', [], true)
+ 5 APPPATH\Controllers\Configuracao.php(24): view('configuracao/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 19:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 19:30:25 --> ErrorException: Attempt to read property "logo" on array
+in APPPATH\Views\configuracao\index.php on line 24.
+ 1 APPPATH\Views\configuracao\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "logo" on array', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\configuracao\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\configuracao\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracao/index', [], true)
+ 5 APPPATH\Controllers\Configuracao.php(24): view('configuracao/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 19:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 19:30:33 --> ErrorException: Undefined variable $logo
+in APPPATH\Views\configuracao\index.php on line 24.
+ 1 APPPATH\Views\configuracao\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logo', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\configuracao\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\configuracao\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracao/index', [], true)
+ 5 APPPATH\Controllers\Configuracao.php(24): view('configuracao/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 19:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 19:30:46 --> ErrorException: Undefined array key "logo"
+in APPPATH\Views\configuracao\index.php on line 24.
+ 1 APPPATH\Views\configuracao\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logo"', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\configuracao\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Views\\configuracao\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracao/index', [], true)
+ 5 APPPATH\Controllers\Configuracao.php(24): view('configuracao/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 19:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 19:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 20:34:55 --> Error connecting to the database: mysqli_sql_exception: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('15.235.117.162', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\ConfiguracaoModel.php(15): CodeIgniter\BaseModel->find(1)
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\Configuracao.php(23): App\Models\ConfiguracaoModel->obterConfiguracao()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Configuracao->index()
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\ConfiguracaoModel.php(15): CodeIgniter\BaseModel->find(1)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\Configuracao.php(23): App\Models\ConfiguracaoModel->obterConfiguracao()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Configuracao->index()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-12 20:34:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `configuracao`
+WHERE `configuracao`.`id_config` = :configuracao.id_config:', [...], false)
+ 3 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH\Models\ConfiguracaoModel.php(15): CodeIgniter\BaseModel->find(1)
+ 6 APPPATH\Controllers\Configuracao.php(23): App\Models\ConfiguracaoModel->obterConfiguracao()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 20:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 20:35:35 --> Error connecting to the database: mysqli_sql_exception: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('15.235.117.162', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\ConfiguracaoModel.php(15): CodeIgniter\BaseModel->find(1)
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\Configuracao.php(23): App\Models\ConfiguracaoModel->obterConfiguracao()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Configuracao->index()
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\ConfiguracaoModel.php(15): CodeIgniter\BaseModel->find(1)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\Configuracao.php(23): App\Models\ConfiguracaoModel->obterConfiguracao()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Configuracao->index()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-12 20:35:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `configuracao`
+WHERE `configuracao`.`id_config` = :configuracao.id_config:', [...], false)
+ 3 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH\Models\ConfiguracaoModel.php(15): CodeIgniter\BaseModel->find(1)
+ 6 APPPATH\Controllers\Configuracao.php(23): App\Models\ConfiguracaoModel->obterConfiguracao()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-12 20:35:46 --> Error connecting to the database: mysqli_sql_exception: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('15.235.117.162', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\App->index()
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\App->index()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-12 20:35:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `banners`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\App->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-12 20:36:10 --> Error connecting to the database: mysqli_sql_exception: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('15.235.117.162', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\App->index()
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\App->index()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-12 20:36:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `banners`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\App->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-12 20:40:19 --> Error connecting to the database: mysqli_sql_exception: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('15.235.117.162', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\App->index()
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\App->index()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-12 20:40:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `banners`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\App->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-12 20:44:54 --> Error connecting to the database: mysqli_sql_exception: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('15.235.117.162', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\App->index()
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\App->index()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-12 20:44:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `banners`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\App->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-12 20:48:50 --> Error connecting to the database: mysqli_sql_exception: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('15.235.117.162', 'pixcatalogo', Object(SensitiveParameterValue), 'pixcatalogo_app', 3306, '', 0)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\App->index()
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu in C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\app\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+#7 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\App->index()
+#8 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#9 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\vinic\OneDrive\Área de Trabalho\Trabalhos\Pix Catalogo\catalogo.pixcatalogo.com.br\catalogo.pixcatalogo.com.br\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-12 20:48:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `banners`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\BannerModel.php(21): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\App.php(19): App\Models\BannerModel->listar_banners()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\App->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 20:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 20:55:55 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 403.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(415): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(36): CodeIgniter\HTTP\SiteURI->siteUrl(null, null, null)
+ 3 APPPATH\Controllers\Configuracao.php(31): site_url(null)
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarOpcoes()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 20:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 20:56:07 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 403.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(415): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(36): CodeIgniter\HTTP\SiteURI->siteUrl(null, null, null)
+ 3 APPPATH\Controllers\Configuracao.php(31): site_url(null)
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarOpcoes()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 20:57:17 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 403.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(415): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(36): CodeIgniter\HTTP\SiteURI->siteUrl(null, null, null)
+ 3 APPPATH\Controllers\Configuracao.php(31): site_url(null)
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarOpcoes()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 20:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 20:57:30 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 403.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(415): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(36): CodeIgniter\HTTP\SiteURI->siteUrl(null, null, null)
+ 3 APPPATH\Controllers\Configuracao.php(31): site_url(null)
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarOpcoes()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 20:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 20:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:25:03 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Configuracao.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:25:17 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Configuracao.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:27:23 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Configuracao.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:30:26 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Configuracao.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:32:09 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Configuracao.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:34:32 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Configuracao.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:34:41 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Configuracao.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:35:44 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Configuracao.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:37:51 --> ErrorException: unlink(assets/logo.jpg): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracao.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/logo.jpg): Resource temporarily unavailable', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Controllers\\Configuracao.php', 56)
+ 2 APPPATH\Controllers\Configuracao.php(56): unlink('assets/logo.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:37:57 --> ErrorException: unlink(assets/logo.jpg): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracao.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/logo.jpg): Resource temporarily unavailable', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Controllers\\Configuracao.php', 56)
+ 2 APPPATH\Controllers\Configuracao.php(56): unlink('assets/logo.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:49:44 --> ErrorException: unlink(assets/logo.jpg): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracao.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/logo.jpg): Resource temporarily unavailable', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Controllers\\Configuracao.php', 56)
+ 2 APPPATH\Controllers\Configuracao.php(56): unlink('assets/logo.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:49:50 --> ErrorException: unlink(assets/logo.png): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracao.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/logo.png): Resource temporarily unavailable', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Controllers\\Configuracao.php', 56)
+ 2 APPPATH\Controllers\Configuracao.php(56): unlink('assets/logo.png')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:50:43 --> ErrorException: unlink(assets/politicasdeprivacidades.pdf): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracao.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/politicasdeprivacidades.pdf): Resource temporarily unavailable', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Controllers\\Configuracao.php', 87)
+ 2 APPPATH\Controllers\Configuracao.php(87): unlink('assets/politicasdeprivacidades.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarPoliticas()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:56:16 --> ErrorException: unlink(assets/logo.jpg): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracao.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/logo.jpg): Resource temporarily unavailable', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Controllers\\Configuracao.php', 56)
+ 2 APPPATH\Controllers\Configuracao.php(56): unlink('assets/logo.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:56:26 --> ErrorException: unlink(assets/logo.png): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracao.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/logo.png): Resource temporarily unavailable', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Controllers\\Configuracao.php', 56)
+ 2 APPPATH\Controllers\Configuracao.php(56): unlink('assets/logo.png')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:56:41 --> ErrorException: unlink(assets/logo.jpg): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracao.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/logo.jpg): Resource temporarily unavailable', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Controllers\\Configuracao.php', 56)
+ 2 APPPATH\Controllers\Configuracao.php(56): unlink('assets/logo.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 21:57:30 --> ErrorException: unlink(assets/logo.jpg): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracao.php on line 55.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/logo.jpg): Resource temporarily unavailable', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Controllers\\Configuracao.php', 55)
+ 2 APPPATH\Controllers\Configuracao.php(55): unlink('assets/logo.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-12 21:57:39 --> ErrorException: unlink(assets/logo.jpg): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracao.php on line 55.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/logo.jpg): Resource temporarily unavailable', 'C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\Trabalhos\\Pix Catalogo\\catalogo.pixcatalogo.com.br\\catalogo.pixcatalogo.com.br\\app\\Controllers\\Configuracao.php', 55)
+ 2 APPPATH\Controllers\Configuracao.php(55): unlink('assets/logo.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Configuracao->salvarLogo()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracao))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-12 21:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 21:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 22:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 22:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 22:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 22:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

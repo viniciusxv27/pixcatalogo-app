@@ -1,0 +1,1877 @@
+INFO - 2024-02-27 15:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 15:26:02 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 15:26:04 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 15:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 15:26:11 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 15:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 15:26:20 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 15:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 15:52:40 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 15:52:40 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 15:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 15:52:42 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 15:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 15:52:47 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 15:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 15:52:51 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 15:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 15:55:48 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 15:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 15:55:51 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 15:55:51 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 15:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 15:59:32 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 15:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:01:33 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 16:02:50 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 16:02:51 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:02:53 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:04:39 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:05:58 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 16:06:00 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 16:06:20 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 16:06:22 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:07:36 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 16:10:09 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5637')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 16:10:09 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5637')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:10:11 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 16:10:15 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5654')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 16:10:15 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5654')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 16:26:45 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5654')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 16:26:45 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5654')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:26:49 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 16:26:52 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 16:26:52 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:29:10 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:29:14 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:30:11 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:38:22 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:43:21 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:53:02 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:53:03 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 16:53:10 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5634')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 16:53:10 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5634')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:53:44 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 16:53:48 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5633')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 16:53:48 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5633')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:54:17 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 16:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 16:56:22 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(72): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:00:20 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(72): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:00:23 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(72): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:03:37 --> ErrorException: Attempt to read property "nome" on array
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(72): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:06:58 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(72): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:07:00 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(72): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 17:07:05 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(72): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 17:07:05 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(72): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:10:52 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(88): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:11:32 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(88): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 17:11:33 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(88): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 17:11:34 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(88): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:11:54 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(88): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:14:13 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(88): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 17:14:17 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(88): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5634')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 17:14:17 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(88): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5634')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:15:29 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(88): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:15:40 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(88): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:21:43 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 147)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(91): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 17:21:47 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(91): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 17:21:47 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(91): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 17:28:22 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 17:28:22 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:28:25 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 147)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(102): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:33:16 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 147)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 17:33:19 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 17:33:19 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:37:47 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 147)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 17:37:50 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 17:37:50 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 148.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(148): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:38:09 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 147)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:49:02 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 147)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:49:57 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 147)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:51:15 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 147)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:51:56 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 147)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:51:58 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 147)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:52:07 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 118.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 118)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:52:19 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 91.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 91)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:53:41 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 147)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:53:51 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 142.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 142)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:54:06 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 125.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 125)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:55:43 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 147)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:56:14 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 147)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:58:16 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(105): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:58:47 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 75.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 75)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:59:26 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 120.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 120)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 17:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 17:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 17:59:52 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 118.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 118)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:01:08 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:02:11 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:03:14 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:04:14 --> ErrorException: Undefined variable $selected
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selected', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:04:28 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:06:08 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 145.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 145)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:06:11 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 145.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 145)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:07:44 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:10:43 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:11:23 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:15:22 --> ErrorException: Array to string conversion
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:15:31 --> ErrorException: Array to string conversion
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:15:32 --> ErrorException: Array to string conversion
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:15:33 --> ErrorException: Array to string conversion
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:28:51 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:29:30 --> ErrorException: Undefined variable $produto
+in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 146)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 18:32:20 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 18:32:20 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 18:32:25 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 18:32:25 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:33:48 --> Error: Call to a member function isValid() on null
+in APPPATH/Controllers/Produto.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 18:35:36 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 18:35:36 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:35:58 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:36:07 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:36:17 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:36:21 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:37:53 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 18:38:30 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5634')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 18:38:30 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5634')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 18:38:33 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 18:38:33 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 18:41:54 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 18:41:54 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(100): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:47:14 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(101): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:47:42 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(105): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-27 18:47:43 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH/Views/produto/criar_editar_produto.php on line 146.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(146): json_decode(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(105): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 18:47:43 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Views/produto/criar_editar_produto.php on line 147.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(147): in_array('169', null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(105): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar('5653')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:47:45 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(105): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 18:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:47:47 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(105): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:48:22 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:48:30 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:48:42 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:48:43 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:48:43 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 18:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 18:51:21 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 19:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 19:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:10:12 --> Error: Class "App\Models\PdfModel" not found
+in APPPATH/Controllers/Pdf.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Pdf->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 19:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 19:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:10:36 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 19:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 19:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:13:53 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:15:38 --> ErrorException: Undefined variable $sistemas
+in APPPATH/Controllers/Produto.php on line 116.
+ 1 APPPATH/Controllers/Produto.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sistemas', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Controllers/Produto.php', 116)
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(309): include_once('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Controllers/Produto.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Controllers/Produto.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Produto')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Produto')
+ 6 SYSTEMPATH/CodeIgniter.php(899): class_exists('\\App\\Controllers\\Produto', true)
+ 7 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:15:52 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:16:12 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:16:24 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:16:25 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:16:27 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:17:29 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:17:57 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(104): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:19:35 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(101): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:20:02 --> ErrorException: Undefined array key "id"
+in APPPATH/Views/produto/criar_editar_produto.php on line 75.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 75)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(101): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:20:17 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(101): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:22:37 --> BadMethodCallException: Call to undefined method App\Models\ProdutoModel::obter_produto
+in SYSTEMPATH/Model.php on line 874.
+ 1 APPPATH/Controllers/Produto.php(39): CodeIgniter\Model->__call('obter_produto', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 19:23:41 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(74): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 19:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:25:45 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(74): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:26:58 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(89): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 19:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 19:27:41 --> ErrorException: Undefined array key "nome"
+in APPPATH/Views/produto/criar_editar_produto.php on line 14.
+ 1 APPPATH/Views/produto/criar_editar_produto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', '/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php', 14)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/pixcatalogo/corven3.pixcatalogo.com.br/app/Views/produto/criar_editar_produto.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('produto/criar_editar_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(89): view('produto/criar_editar_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Produto->criar_editar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
